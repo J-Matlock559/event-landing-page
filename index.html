@@ -2,94 +2,153 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+  <title>Event Landing Page</title>
 </head>
 
 <body>
-    <div class="container-fluid p-5 bg-light">
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col">
-                <p class="h1 text-center">Clear Statement About Your Event</p>
-            </div>
-            <div class="col-2"></div>
-        </div>
-        <div class="row">
-            <p class="text-muted text-center">Secondary header providing aditional information.</p>
-        </div>
-        <div class="container-fluid mt-4 text-center">
-            <button class="btn btn-dark">Get The Ticket</button>
-        </div>
+  <nav class="navbar navbar-expand navbar-light sticky-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">Moqups</a>
+      <div class="navbar-nav">
+        <a href="#" class="nav-link">Speakers</a>
+        <a href="#" class="nav-link">Tickets</a>
+        <a href="#" class="nav-link">Venue</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid p-5 bg-light bg-image"
+        style="background-image: url(https://placehold.jp/f5f5f5/ffffff/1920x1920.png); background-size: cover; background-repeat: no-repeat">
+    <div class="row mt-5">
+      <div class="col-2"></div>
+      <div class="col">
+        <p class="h1 text-center">Clear Statement About Your Event</p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <p class="text-muted text-center">Secondary header providing aditional information.</p>
+    </div>
+    <div class="container-fluid mt-4 text-center">
+      <button class="btn btn-dark mb-5">Get The Ticket</button>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5 text-center">
+    <p class="h2 mb-4">The Speakers</p>
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <p class="h6">Write a few lines about the event speakers to highlight their expertise in the field.</p>
+      </div>
+      <div class="col-3"></div>
     </div>
 
-    <div class="container-fluid p-5 text-center">
-        <p class="h2 mb-4">The Speakers</p>
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
-                <p class="h6">Write a few lines about the event speakers to highlight their expertise in the field.</p>
-            </div>
-            <div class="col-3"></div>
+  </div>
+
+  <div class="container pb-5">
+    <div class="row">
+      <div class="col">
+        <div class="card h-100 m-3">
+          <img src="https://placehold.jp/150x150.png" alt="">
+          <div class="card-body">
+            <h6 class="card-title">Ruby Jennings</h6>
+            <p class="card-text">Product Manager at Moqups, Runner, parent and coffee
+              lover. <br><br>@username</p>
+          </div>
         </div>
-
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-3">
-                <div class="card">
-                    <img src="https://placehold.jp/150x150.png" alt="">
-                    <div class="card-body">
-                        <h6 class="card-title">Ruby Jennings</h6>
-                        <p class="card-text">Product Manager at Moqups, Runner, parent and coffee
-                            lover.<br><br>@username</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="https://placehold.jp/150x150.png" alt="">
-                    <div class="card-body">
-                        <h6 class="card-title">Leon Hanson</h6>
-                        <p class="card-text">Sales Manager at Moqups, Runner, parent and coffee lover.<br><br>@username
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="https://placehold.jp/150x150.png" alt="">
-                    <div class="card-body">
-                        <h6 class="card-title">Meghan Stone</h6>
-                        <p class="card-text">Marketing Specialist at Moqups, Runner, parent and coffee
-                            lover.<br><br>@username</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="https://placehold.jp/150x150.png" alt="">
-                    <div class="card-body">
-                        <h6 class="card-title">Willie Perkins</h6>
-                        <p class="card-text">UX Engineer at Moqups, Runner, parent and coffee lover.<br><br>@username
-                        </p>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 m-3">
+          <img src="https://placehold.jp/150x150.png" alt="">
+          <div class="card-body">
+            <h6 class="card-title">Leon Hanson</h6>
+            <p class="card-text">Sales Manager at Moqups, Runner, parent and coffee lover.<br><br>@username
+            </p>
+          </div>
         </div>
-    </div>
+      </div>
+      <div class="col">
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+        <div class="card h-100 m-3">
+          <img src="https://placehold.jp/150x150.png" alt="">
+          <div class="card-body">
+            <h6 class="card-title">Meghan Stone</h6>
+            <p class="card-text">Marketing Specialist at Moqups, Runner, parent and coffee
+              lover.<br><br>@username</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+
+        <div class="card h-100 m-3">
+          <img src="https://placehold.jp/150x150.png" alt="">
+          <div class="card-body">
+            <h6 class="card-title">Willie Perkins</h6>
+            <p class="card-text">UX Engineer at Moqups, Runner, parent and coffee lover.<br><br>@username
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="container-fluid p-5">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <p class="h1 text-center mb-5">Get Your Ticket Today!</p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <p class="text-muted text-center">Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes.</p>
+    </div>
+    <div class="container-fluid mt-4 text-center">
+      <button class="btn btn-dark p-3 px-4">BUY TICKET $149</button>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 p-5 pb-0 h-100">
+        <p class="h1 mb-5">The Venue</p>
+        <p class="d-inline">Our event will be held at the </p>
+        <p class="h6 d-inline">Main Office headquarters at Provost & East Building 145 City Road, London.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.20001307339!2d-0.09046908255615237!3d51.52789119999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d1618b8bad5%3A0x36ee1976367a95e3!2sWeWork%20-%20Office%20Space%20%26%20Coworking!5e0!3m2!1sen!2sus!4v1658348173523!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-5"></iframe>
+      </div>
+      <div class="col-6 p-5 h-100">
+        <img src="https://placeholder.pics/svg/900" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-2 py-3">
+        <i class="fa-brands fa-twitter mx-1"></i>
+        <i class="fa-brands fa-instagram mx-1"></i>
+        <i class="fa-brands fa-facebook-square mx-1"></i>
+      </div>
+      <div class="col text-end text-muted py-3">&copy 2019 Moqups</div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/60d34e7825.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
